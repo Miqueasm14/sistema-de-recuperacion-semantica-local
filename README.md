@@ -39,7 +39,7 @@ El campo `fuentes` lista los archivos de los fragmentos que el retriever le pas�
 ## Estructura del repositorio
 
 ```
-rag-local/
+sistema-de-recuperacion-semantica-local/
 ├── data/                          # Dataset de ejemplo (.txt)
 │   ├── politica_code_review.txt
 │   ├── politica_incidentes.txt
