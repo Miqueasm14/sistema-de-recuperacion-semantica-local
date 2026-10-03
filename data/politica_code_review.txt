@@ -1,0 +1,17 @@
+Política de Code Review - Vertex Software
+
+Todo cambio de código que se integre a la rama principal (main) debe pasar por al menos
+una revisión (code review) aprobada por otra persona del equipo antes de poder mergearse.
+Los Pull Requests que modifiquen código de seguridad, autenticación o facturación requieren
+dos aprobaciones en lugar de una.
+
+El equipo se compromete a revisar un Pull Request dentro de las 24 horas hábiles siguientes
+a su apertura. Si un PR no recibe comentarios ni aprobación pasado ese plazo, el autor puede
+etiquetar directamente al líder técnico del equipo para destrabarlo.
+
+Los Pull Requests no deben superar las 400 líneas de código modificadas (sin contar archivos
+generados automáticamente o de testing). Si un cambio es necesariamente más grande, debe
+dividirse en PRs más chicos y encadenados, o justificarse explícitamente en la descripción.
+
+Está prohibido aprobar el propio Pull Request, incluso si la persona tiene permisos de
+administrador sobre el repositorio.

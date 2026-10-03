@@ -1,0 +1,17 @@
+Política de Backups y Recuperación - Vertex Software
+
+Todas las bases de datos de producción tienen backups completos automáticos cada 24 horas,
+retenidos durante 30 días en almacenamiento separado de la infraestructura principal.
+Adicionalmente, se toman backups incrementales cada 6 horas, retenidos durante 7 días.
+
+El equipo de Infraestructura ejecuta una prueba de restauración (restore test) de forma
+trimestral sobre un entorno aislado, para verificar que los backups son efectivamente
+utilizables y no solo que el proceso de backup "corrió sin errores".
+
+Ante una solicitud de restauración de datos, el tiempo objetivo de recuperación (RTO) es
+de 4 horas para bases de datos críticas y de 24 horas para el resto de los sistemas. El
+punto objetivo de recuperación (RPO) es de 6 horas como máximo, dado el esquema de backups
+incrementales.
+
+Los backups se cifran en reposo y en tránsito, y el acceso a ellos está restringido al
+equipo de Infraestructura mediante autenticación de dos factores.

@@ -1,0 +1,18 @@
+Política de Gestión de Incidentes - Vertex Software
+
+Los incidentes de producción se clasifican en cuatro niveles de severidad: SEV1 (caída total
+del servicio), SEV2 (degradación grave que afecta a una porción significativa de usuarios),
+SEV3 (funcionalidad menor afectada, con workaround disponible) y SEV4 (problema cosmético
+o de bajo impacto).
+
+Ante un incidente SEV1 o SEV2, la persona que lo detecta debe abrir un canal de incidente
+dedicado y notificar al guardia de turno (on-call) dentro de los primeros 10 minutos. El
+guardia de turno es responsable de coordinar la respuesta hasta que el servicio se restablece.
+
+Todo incidente SEV1 o SEV2 requiere un postmortem escrito dentro de las 72 horas posteriores
+a su resolución, documentando la causa raíz, el impacto y las acciones de seguimiento. Los
+postmortems son "blameless" (sin buscar culpables individuales) y se comparten con toda
+la organización.
+
+Los incidentes SEV3 y SEV4 se registran en el sistema de tickets interno, pero no requieren
+postmortem obligatorio salvo que se repitan más de tres veces en un mismo trimestre.

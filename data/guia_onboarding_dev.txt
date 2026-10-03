@@ -1,0 +1,18 @@
+Guía de Onboarding para Desarrolladores - Vertex Software
+
+El proceso de incorporación técnica de un nuevo desarrollador dura dos semanas. Durante
+los primeros tres días, la persona configura su entorno de desarrollo local, obtiene
+accesos a los repositorios y a los sistemas internos, y completa un recorrido guiado por
+la arquitectura general de la plataforma junto a un mentor asignado.
+
+Durante la primera semana, se espera que el nuevo desarrollador resuelva al menos una
+tarea técnica pequeña ("good first issue") con acompañamiento cercano de su mentor, para
+familiarizarse con el proceso de Pull Requests y code review del equipo.
+
+En la segunda semana, el desarrollador participa de guardias de soporte (on-call) en modo
+"shadow", es decir, acompañando a la persona de guardia sin tener responsabilidad directa
+sobre la resolución de incidentes.
+
+Al finalizar las dos semanas, se realiza una reunión de cierre de onboarding con el líder
+técnico del equipo, donde se revisan los objetivos del primer mes y se resuelven dudas
+pendientes sobre el stack tecnológico o los procesos internos.
